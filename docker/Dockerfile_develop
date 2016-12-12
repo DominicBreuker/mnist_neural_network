@@ -1,7 +1,0 @@
-FROM tensorflow/tensorflow
-
-RUN pip install 'keras==1.1.2' && \
-    pip install 'pandas==0.19.1' && \
-    pip install 'h5py==2.6.0'
-
-RUN rm -r /notebooks
